@@ -1,14 +1,13 @@
-
 //These buttons activate the functions
 
 let startNumber = document.getElementById("start");
-startNumber.addEventListener("click",start)
+startNumber.addEventListener("click",start);
 
 let highNumber = document.getElementById("higher");
-highNumber.addEventListener("click",higher)
+highNumber.addEventListener("click",higher);
 
 let lowerNumberButton = document.getElementById("lower");
-lowerNumberButton.addEventListener("click",lower)
+lowerNumberButton.addEventListener("click",lower);
 
 let newNumber = null;
 let higherNumber = null;
@@ -26,7 +25,7 @@ function start(){
     //
     document.getElementById('random-number').textContent= newNumber;
     document.getElementById('result').textContent= "";
-    return newNumber
+    return newNumber;
 }
 
 function higher(){
@@ -50,16 +49,16 @@ function higher(){
     
     else{
         if (counter > maxRecord){
-            maxRecord = counter
+            maxRecord = counter;
             document.getElementById('max-record').textContent= maxRecord;
         }
-        alert("YOU MISSED IT!! \nThe new number " + higherNumber + " is LOWER than " + newNumber)
-        showText = "Try again!"
+        alert("YOU MISSED IT!! \nThe new number " + higherNumber + " is LOWER than " + newNumber);
+        showText = "Try again!";
         document.getElementById('result').textContent= showText;
-        document.getElementById('random-number').textContent = "0"
-        document.getElementById('counter').textContent= "0"
+        document.getElementById('random-number').textContent = "0";
+        document.getElementById('counter').textContent= "0";
     }
-    return newNumber = higherNumber
+    return newNumber = higherNumber;
 }
 
 function lower(){
@@ -76,7 +75,7 @@ function lower(){
     }
 
     else if (lowerNumber < newNumber){
-        showText = "HIT!"
+        showText = "HIT!";
         document.getElementById('result').textContent= showText;
         counter++;
         document.getElementById('counter').textContent= counter;
@@ -84,15 +83,15 @@ function lower(){
 
     else{
         if (counter > maxRecord){
-            maxRecord = counter
+            maxRecord = counter;
         }
-        alert("YOU MISSED IT!! \nThe new number " + lowerNumber + " is HIGHER than " + newNumber)
-        showText = "Try again!"
+        alert("YOU MISSED IT!! \nThe new number " + lowerNumber + " is HIGHER than " + newNumber);
+        showText = "Try again!";
         document.getElementById('result').textContent= showText;
-        document.getElementById('random-number').textContent = "0"
-        document.getElementById('counter').textContent= "0"
+        document.getElementById('random-number').textContent = "0";
+        document.getElementById('counter').textContent= "0";
     }
-    return newNumber = lowerNumber
+    return newNumber = lowerNumber;
 }
 
 
