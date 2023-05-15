@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+img{
+    margin: 40px;
+}
+
+#score{
+    margin: 0px 700px 70px 700px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.instructions{
+    margin: 40px;
+}
