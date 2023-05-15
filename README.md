@@ -18,6 +18,10 @@ The main difference is that you'll get a random number in a scale of 1 to 25 and
     There are two counters: The "score" one, will sum the total score on the round. After loosing it will reset to 0. The "Record" counter, will save the highest score made.
 ![]
 
+### Instructions
+    Instructions sections to explain how the game works.
+![]
+
 ## Features Left to Implement
 The idea is to do it with cards, in a scale of 1 to 12 and showing the card symbols. (clubs, diamonds, hearts and spades)
 
