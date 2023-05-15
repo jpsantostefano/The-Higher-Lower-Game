@@ -5,22 +5,24 @@ The main difference is that you'll get a random number in a scale of 1 to 25 and
 
 ## Existing Features
 ### Header
-   The header shows the game name "Higher-lower Game" on an image
-    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/the-higher-lower-game.jpg)
+   The header shows the game name "Higher-lower Game" on an image.
+   
+   ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/the-higher-lower-game.jpg)
 
 ### Buttons and number
-    There is a start button that generates a random number and a higher and lower button that will generate a random number and compare it with the current one. If it's correct, it will show a "Hit" text, and if it's incorrect, an alert will show up saying that you missed it and which was the new number.
+   There is a start button that generates a random number and a higher and lower button that will generate a random number and compare it with the current one. If it's correct, it will show a "Hit" text, and if it's incorrect, an alert will show up saying that you missed it and which was the new number.
+   
    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/buttons-feature.jpg)
 
 ### Counters
-    There are two counters: The "score" one, will sum the total score on the round. After loosing it will reset to 0. The "Record" counter, will save the highest score made.
-    
-    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/counters-image.jpg)
+   There are two counters: The "score" one, will sum the total score on the round. After loosing it will reset to 0. The "Record" counter, will save the highest score made.
+
+   ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/counters-image.jpg)
 
 ### Instructions
-    Instructions sections to explain how the game works.
+   Instructions sections to explain how the game works.
     
-    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/instructions.jpg)
+   ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/instructions.jpg)
 
 ## Features Left to Implement
 The idea is to do it with cards, in a scale of 1 to 12 and showing the card symbols. (clubs, diamonds, hearts and spades)
@@ -30,17 +32,20 @@ This web was made for Iphone 4 screen size (320px x 480px) and to desktop screen
 
 ## Validator Testing
 - HTML
-    - No errors were returned when passing through the official W3C validator
+    No errors were returned when passing through the official W3C validator
     
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/html-validator.jpg)
     
 - CSS
 
-    - No errors were found when passing through the official (Jigsaw) validator
+    No errors were found when passing through the official (Jigsaw) validator
+    
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/css-validator.jpg)
     
 - LightHouse
-   - No errors were found when passing through the LightHouse validator
+
+   No errors were found when passing through the LightHouse validator
+   
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/LightHouse-validator.jpg)
 
 ## Deployment
