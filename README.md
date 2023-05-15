@@ -14,10 +14,12 @@ The main difference is that you'll get a random number in a scale of 1 to 25 and
 
 ### Counters
     There are two counters: The "score" one, will sum the total score on the round. After loosing it will reset to 0. The "Record" counter, will save the highest score made.
+    
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/counters-image.jpg)
 
 ### Instructions
     Instructions sections to explain how the game works.
+    
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/instructions.jpg)
 
 ## Features Left to Implement
@@ -29,11 +31,16 @@ This web was made for Iphone 4 screen size (320px x 480px) and to desktop screen
 ## Validator Testing
 - HTML
     - No errors were returned when passing through the official W3C validator
+    
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/html-validator.jpg)
+    
 - CSS
+
     - No errors were found when passing through the official (Jigsaw) validator
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/css-validator.jpg)
+    
 - LightHouse
+   - No errors were found when passing through the LightHouse validator
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/LightHouse-validator.jpg)
 
 ## Deployment
