@@ -34,6 +34,11 @@ img{
 
 @media screen and (max-width:320px) and (max-height:480px) {
 
+.body{
+    max-width: 320px;
+    max-height: 480px;
+}
+
 .instructions{
     max-width: 300px;
     margin: 20px;
@@ -44,24 +49,16 @@ img{
     text-align: center;
 }
 
-.body{
-    max-width: 320px;
-    max-height: 480px;
-}
-
 img{
    width: 95%;
    height: 95%;
    margin: 0;
 }
 
-
 #score{
     margin: 0;
     padding: 0;
 }
-
-
 
 .media-screen{
     margin: 40px;

@@ -1,108 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# HIGHER-LOWER GAME
 
-Welcome jpsantostefano,
+What the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+This Project is aimed at anyone who wants to start doing physical activity, bodybuilding, fitness and even mindfulness. It gives you the possibility to start from scratch without knowledge or experience. It includes a section of a recommended workout to start with and a section to sign up commenting on the price of the fee.
+You can find all the necessary information about our facilities, services and schedules. At Fitness Club, we focus on providing a friendly and safe environment so you can achieve your fitness goals.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Existing Features
+### Sound controler
+   This feature auto play the song Lady Gaga - Bloody Mary (Soner Karaca remix) and it has a control tool bar to pause and play the song. You can also low or mute the volume.
+   
+![](https://github.com/jpsantostefano/gym-fitness/blob/be8e17b557b8ad00da71399a9766c356a5b91580/assets/images/sound-controler.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Navigation Bar
+   Featured on all three pages, the full responsive navigation bar includes, Home page, workout and sign up page and is identical in each page to allow for easy navigation.
+   This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-## Gitpod Reminders
+![](https://github.com/jpsantostefano/gym-fitness/blob/be8e17b557b8ad00da71399a9766c356a5b91580/assets/images/navigation-bar.jpg)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### The landing Home Page
+   This landing includes a background photograph of our gym with a title and four sections describing what activities and facilities you can find in our gym.
+![](https://github.com/jpsantostefano/gym-fitness/blob/be8e17b557b8ad00da71399a9766c356a5b91580/assets/images/index.jpg)
 
-`python3 -m http.server`
+### Workout
+   - This section will help the user to guide on what exercise start to do on their first day of activity.
+   - This section was made with a table specifying  the name of each exercise, the round and repetitions numbers to do it.
+   - Includes an image on the side on representation of one of the exercises listed. 
+![](https://github.com/jpsantostefano/gym-fitness/blob/be8e17b557b8ad00da71399a9766c356a5b91580/assets/images/workout.jpg)
 
-A blue button should appear to click: _Make Public_,
+### Sign up
+   - This section will allow the user to see the prices of the membership. Could be monthly or annual.
+   - This section has a form asking the full name, phone number and email to contact the user after completed.
+   - Includes two pictures as a representation of the group training and having a good time as well.
+![](https://github.com/jpsantostefano/gym-fitness/blob/be8e17b557b8ad00da71399a9766c356a5b91580/assets/images/sign-up.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+### The Footer
+   - This section includes links to the relevant social media sites for Fitness Club. These links will open to a new tab to allow easy navigation for the user.
+   - Below the social media you'll find the contact section that shows the address and phone number
+![](https://github.com/jpsantostefano/gym-fitness/blob/be8e17b557b8ad00da71399a9766c356a5b91580/assets/images/footer.jpg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features Left to Implement
+Add swimming, cardio and yoga workout with a video explaining how to do each exercise with a good technique.
 
-A blue button should appear to click: _Make Public_,
+## Testing
+This web was made for Iphone 4 screen size (320px x 480px) and to desktop screen size (1920px x1080px).
+While I was testing and preview the site, I had a bug that 2 of the images where not showing and the path were well written. The problem was that the "alt" section had the text written with spaces in the middle and not "-".
 
-Another blue button should appear to click: _Open Browser_.
+## Validator Testing
+- HTML
+    - No errors were returned when passing through the official W3C validator
+    ![](https://github.com/jpsantostefano/gym-fitness/blob/4c38663166093d569335a78d0e820ccb1eda60aa/assets/images/W3C-validator.jpg)
+- CSS
+    - No errors were found when passing through the official (Jigsaw) validator
+    ![](https://github.com/jpsantostefano/gym-fitness/blob/4c38663166093d569335a78d0e820ccb1eda60aa/assets/images/jigsaw-validator.jpg)
+- LightHouse
+    ![](https://github.com/jpsantostefano/gym-fitness/blob/895f3ed6cdcfbb2bbfdcbd9b55b27fb402836ea4/assets/images/Lighthouse-validator.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Unfixed Bugs
+When you select over one of the nav items, it shakes because the padding and width changes
 
-To log into the Heroku toolbelt CLI:
+## Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab.
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- The link can be found here:
+https://github.com/jpsantostefano/gym-fitness
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Credits
+   - Soundtrack: https://www.youtube.com/watch?v=fOCncfbsruI
+   - Images: Google Images
+   - Workout information: https://www.youtube.com/@athleanx
 
-------
+## Content
+- The icons in the footer were taken from: https://fontawesome.com/
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Media
+- Soundtrack: https://www.youtube.com/watch?v=fOCncfbsruI
+- Images: The pictures used were taken from Google Images

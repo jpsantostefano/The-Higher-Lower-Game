@@ -17,7 +17,6 @@ let showText = "";
 let counter = 0;
 let maxRecord = 0;
 
-
 //Functions
 function start(){
     //Create a new number and save it in a variable
@@ -47,7 +46,6 @@ function higher(){
         document.getElementById('result').textContent= showText;
         counter++;
         document.getElementById('counter').textContent= counter;
-        
     }
     
     else{
@@ -55,14 +53,12 @@ function higher(){
             maxRecord = counter
             document.getElementById('max-record').textContent= maxRecord;
         }
-        
         alert("YOU MISSED IT!! \nThe new number " + higherNumber + " is LOWER than " + newNumber)
         showText = "Try again!"
         document.getElementById('result').textContent= showText;
         document.getElementById('random-number').textContent = "0"
         document.getElementById('counter').textContent= "0"
     }
-    
     return newNumber = higherNumber
 }
 
@@ -72,8 +68,8 @@ function lower(){
     //show variable
     document.getElementById('random-number').textContent = lowerNumber;
     
+
     //compare startNumber with lowerNumber and says which one is lower
-    
     if (lowerNumber===newNumber){
         showText = "DRAW!";
         document.getElementById('result').textContent= showText;
@@ -84,21 +80,18 @@ function lower(){
         document.getElementById('result').textContent= showText;
         counter++;
         document.getElementById('counter').textContent= counter;
-        
     }
 
     else{
         if (counter > maxRecord){
             maxRecord = counter
         }
-        
         alert("YOU MISSED IT!! \nThe new number " + lowerNumber + " is HIGHER than " + newNumber)
         showText = "Try again!"
         document.getElementById('result').textContent= showText;
         document.getElementById('random-number').textContent = "0"
         document.getElementById('counter').textContent= "0"
     }
-    
     return newNumber = lowerNumber
 }
 
