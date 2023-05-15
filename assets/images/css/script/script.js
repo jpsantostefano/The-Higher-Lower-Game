@@ -1,5 +1,5 @@
 
-//This buttons active the functions
+//These buttons activate the functions
 
 let startNumber = document.getElementById("start");
 startNumber.addEventListener("click",start)
@@ -16,7 +16,6 @@ let lowerNumber = null;
 let showText = "";
 let counter = 0;
 let maxRecord = 0;
-
 
 
 //Functions
@@ -57,7 +56,7 @@ function higher(){
             document.getElementById('max-record').textContent= maxRecord;
         }
         
-        alert("YOU MISSED IT!! \nthe new number " + higherNumber + " is LOWER than " + newNumber)
+        alert("YOU MISSED IT!! \nThe new number " + higherNumber + " is LOWER than " + newNumber)
         showText = "Try again!"
         document.getElementById('result').textContent= showText;
         document.getElementById('random-number').textContent = "0"
@@ -93,7 +92,7 @@ function lower(){
             maxRecord = counter
         }
         
-        alert("YOU MISSED IT!! \nthe new number " + lowerNumber + " is HIGHER than " + newNumber)
+        alert("YOU MISSED IT!! \nThe new number " + lowerNumber + " is HIGHER than " + newNumber)
         showText = "Try again!"
         document.getElementById('result').textContent= showText;
         document.getElementById('random-number').textContent = "0"

@@ -5,42 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="assets\images\css\css\styles.css">
-    <title>Document</title>
+    <title>The Higher or Lower Game</title>
 </head>
+
 <body>
-    <div class="text-center">
+    <div class="text-center" id="title">
         <img  src="assets/images/css/images/higher-lower.png" alt="higher-lower-image">
     </div>
 
-    <div class="text-center">
-        <button id="start">START</button>
-    </div>
-
-    <div class="text-center">
-        <p id="random-number">0</p>
-        <p id="result"></p>
-    </div>
-
-    
-
-    <div class="text-center">
-        <button id="higher">HIGHER</button>
-        <button id="lower">LOWER</button>
-    </div>
-
-    <div class="text-center" id="score">
-        <div class="counters">
-            <p>Counter: </p><span id="counter">0</span>
+    <div class="media-screen">
+        <div class="text-center">
+            <button id="start"><b>START</b></button>
         </div>
-        <div class="counters">
-            <p>Record: </p><span id="max-record">0</span>
+
+        <div class="text-center">
+            <p id="random-number">0</p>
+            <p id="result"></p>
+        </div>
+
+        <div class="text-center">
+            <button id="higher"><b>HIGHER</b></button>
+            <button id="lower"><b>LOWER</b></button>
+        </div>
+
+        <div class="text-center" id="score">
+            <div class="counters">
+                <p><b>Counter: </b></p><span id="counter">0</span>
+            </div>
+            <div class="counters">
+                <p><b>Record:</b></p><span id="max-record">0</span>
+            </div>
         </div>
     </div>
 
     <div class="instructions">
-        <p><u>INSTRUCTIONS:</u></p>
+        <p id="instructions"><u>INSTRUCTIONS:</u></p>
         <p>You'll receive a random number from 1 to 25, and you'll have to guess if the next number is higher or lower than the current one.</p>
     </div>
+
     <script src="assets\images\css\script\script.js"></script>
 </body>
 </html>
