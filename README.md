@@ -6,13 +6,11 @@ The main difference is that you'll get a random number in a scale of 1 to 25 and
 ## Existing Features
 ### Header
    The header shows the game name "Higher-lower Game" on an image
-   
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/the-higher-lower-game.jpg)
 
 ### Buttons and number
     There is a start button that generates a random number and a higher and lower button that will generate a random number and compare it with the current one. If it's correct, it will show a "Hit" text, and if it's incorrect, an alert will show up saying that you missed it and which was the new number.
-
-![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/buttons-feature.jpg)
+    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/buttons-feature.jpg)
 
 ### Counters
     There are two counters: The "score" one, will sum the total score on the round. After loosing it will reset to 0. The "Record" counter, will save the highest score made.
