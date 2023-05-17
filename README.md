@@ -18,9 +18,13 @@ The main difference is that you'll get a random number in a scale of 1 to 25 and
    There are two counters: The "score" one, will sum the total score on the round. After loosing it will reset to 0. The "Record" counter, will save the highest score made.
 
    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/counters-image.jpg)
+   
+### Alert message
+   An alert message will show up in case the user loose. It will say "YOU MISSED IT!! The new number "x" is (HIGHER or LOWER) than "x"
+   ![]()
 
 ### Instructions
-   Instructions sections to explain how the game works.
+   Instructions section to explain how the game works.
     
    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/instructions.jpg)
 
