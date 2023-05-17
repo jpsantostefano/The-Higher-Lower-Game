@@ -5,23 +5,14 @@ The main difference is that you'll get a random number in a scale of 1 to 25 and
 
 ## Existing Features
 ### Header
-<<<<<<< HEAD
    The header shows the game name "Higher-lower Game" on an image
     ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/the-higher-lower-game.jpg)
 
-### Buttons and number
-    There is a start button that generates a random number and a higher and lower button that will generate a random number and compare it with the current one. If it's correct, it will show a "Hit" text, and if it's incorrect, an alert will show up saying that you missed it and which was the new number.
-    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/buttons-feature.jpg)
-=======
-   The header shows the game name "Higher-lower Game" on an image.
-   
-   ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/the-higher-lower-game.jpg)
 
 ### Buttons and number
    There is a start button that generates a random number and a higher and lower button that will generate a random number and compare it with the current one. If it's correct, it will show a "Hit" text, and if it's incorrect, an alert will show up saying that you missed it and which was the new number.
    
    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/buttons-feature.jpg)
->>>>>>> fa18d7f05ce433a367ce3debfff5c846f7ac8ee3
 
 ### Counters
    There are two counters: The "score" one, will sum the total score on the round. After loosing it will reset to 0. The "Record" counter, will save the highest score made.
@@ -30,7 +21,7 @@ The main difference is that you'll get a random number in a scale of 1 to 25 and
    
 ### Alert message
    An alert message will show up in case the user loose. It will say "YOU MISSED IT!! The new number "x" is (HIGHER or LOWER) than "x"
-   ![]()
+   ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/alert.jpg)
 
 ### Instructions
    Instructions section to explain how the game works.
