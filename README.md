@@ -38,13 +38,13 @@ This web was made for Iphone 4 screen size (320px x 480px) and to desktop screen
 - HTML
     No errors were returned when passing through the official W3C validator
     
-    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/html-validator.jpg)
+    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/html-validator.jpg?raw=true)
     
 - CSS
 
     No errors were found when passing through the official (Jigsaw) validator
     
-    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/css-validator.jpg)
+    ![](https://github.com/jpsantostefano/The-Higher-Lower-Game/blob/main/assets/images/css-validator.jpg?raw=true)
     
 - LightHouse
 
